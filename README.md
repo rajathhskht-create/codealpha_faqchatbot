@@ -180,14 +180,3 @@ faq-chatbot/
 | Lemmatization | `WordNetLemmatizer` | "running" → "run" |
 | Vectorization | `TfidfVectorizer` | Words → numeric vectors |
 | Similarity | `cosine_similarity` | Find closest FAQ match |
-
----
-
-## 🚀 Future Improvements
-
-- [ ] Add more FAQ questions and categories
-- [ ] GUI version using Tkinter
-- [ ] Web version using Flask or Streamlit
-- [ ] Support for custom FAQ JSON file as input
-- [ ] Multi-turn conversation context
-- [ ] Fuzzy matching for typos
