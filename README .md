@@ -11,7 +11,7 @@ A terminal-based **FAQ Chatbot** built with Python that understands what you're 
 ```
 +======================================================================+
 |                                                                      |
-|              🤖 FAQ CHATBOT - Python Programming Q&A                 |
+|                🤖 FAQ CHATBOT - Python Programming Q&A                |
 |                                                                      |
 +======================================================================+
 
@@ -20,15 +20,16 @@ A terminal-based **FAQ Chatbot** built with Python that understands what you're 
 
 ----------------------------------------------------------------------
 
-You > whats the diff between list and tuple
+You > what is python?
 
-+-  Bot  .  Turn 1  .  Category: Data Types
-|  Lists [ ] are mutable — you can add, remove, or change items.
-|  Tuples ( ) are immutable — once created they cannot be modified.
-|  Tuples are slightly faster and are used for fixed data.
++-  Bot  .  Turn 1  .  Category: Basics
+[36m|[0m  [37mPython is a high-level, interpreted, general-purpose programming language prized for its clean syntax, readability, and huge ecosystem of libraries.[0m
 |
-|  Confidence  ████████████████░░░░░░░░░░░░░░   56.3%
+|  Confidence  ##############################  100.0%
 +--------------------------------------------------------------------+
+......................................................................
+
+You > 
 ```
 
 ---
@@ -190,25 +191,3 @@ faq-chatbot/
 - [ ] Support for custom FAQ JSON file as input
 - [ ] Multi-turn conversation context
 - [ ] Fuzzy matching for typos
-
----
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-
----
-
-## 🙏 Acknowledgements
-
-- [NLTK](https://www.nltk.org/) — Natural Language Toolkit
-- [scikit-learn](https://scikit-learn.org/) — TF-IDF and Cosine Similarity
-- **CodeAlpha** — for the internship opportunity
